@@ -3,7 +3,7 @@ import Card from "../Card/Card";
 
 function ReadById() {
   //   let item = undefined;
-  /* const [item, setItem] = useState();
+  const [item, setItem] = useState();
 
   const id = "63f8d08ec538bfcb679d2da4";
 
@@ -39,7 +39,7 @@ function ReadById() {
     <div className="ReadById">
       <Card item={item} />
     </div>
-  ); */
+  );
 }
 
 export default ReadById;
