@@ -5,9 +5,9 @@ const cors = require("cors");
 // localhost ou 127.0.0.1
 // const DB_URL = "mongodb://127.0.0.1:27017";
 const DB_URL =
-  "mongodb+srv://admin:m3Hs1dWWpzWw6jPn@cluster0.obfhne1.mongodb.net";//meu db
-  //"mongodb+srv://admin:fsdLuHLFo4KwOZ7N@cluster0.bndngam.mongodb.net";//db do prof
-const DB_NAME = "ocean-bancodedados-09-02-2023";
+  //"mongodb+srv://admin:m3Hs1dWWpzWw6jPn@cluster0.obfhne1.mongodb.net";//meu db
+  "mongodb+srv://admin:fsdLuHLFo4KwOZ7N@cluster0.bndngam.mongodb.net";//db do prof
+const DB_NAME = "ocean-bancodados-09-02-2023";
 
 async function main() {
   // Conexão com o banco de dados
