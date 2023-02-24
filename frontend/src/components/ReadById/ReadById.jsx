@@ -8,6 +8,7 @@ function ReadById() {
   const id = "63f8d08ec538bfcb679d2da4";
 
   async function realizarRequisicao() {
+    
     const url = "http://localhost:3000/item/" + id; // Concatenação normal
     // const url = `http://localhost:3000/item/${id}`; // Template string
     // url = http://localhost:3000/item/63ee1e0b18f2b9a93da8435a
